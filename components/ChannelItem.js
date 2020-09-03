@@ -11,7 +11,8 @@ export default class ChannelItem extends React.Component {
                     <div className='name'>{this.props.name}</div>
 				    <div className='desc'>{this.props.desc}</div>
                 </div>
-                <div className='button'><button type="button" className='button-deco linkbox' onclick="location.href='local:3000/'">開く</button></div>
+
+                <div className='button'><button type="button" className='button-deco linkbox' onclick={this.props.url}>開く</button></div>
                 
 			</div>
 

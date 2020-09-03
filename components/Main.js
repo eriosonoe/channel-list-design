@@ -10,27 +10,33 @@ export default class Main extends React.Component {
         {
 			icon: 'https://assets.smartnews.com/cr_ja_column_sale/otoku_icon2.png',
             name: 'お得・割引',
-            desc: 'お得・割引な情報をお手元に'},
+            desc: 'お得・割引な情報をお手元に',
+            url:  'https://google.com/'}　,
             
             {icon: 'https://assets.smartnews.com/cr_ja_entertainment_animation/logo_square.png',
             name: 'アニメ',
-            desc: '注目アニメから、声優情報まで！'},
+            desc: '注目アニメから、声優情報まで！',
+            url:  'https://google.com/'},
             
             {icon: 'https://assets.smartnews.com/cr_ja_column_health/logo_square.png',
 			name: 'ヘルスケア',
-            desc: '健康・医療のお役立ち情報をお届け！'},
+            desc: '健康・医療のお役立ち情報をお届け！',
+            url:  'https://google.com/'},
 
             {icon: 'https://assets.smartnews.com/cr_ja_column_sale/otoku_icon2.png',
 			name: 'お得・割引',
-            desc: 'お得・割引な情報をお手元に'},
+            desc: 'お得・割引な情報をお手元に',
+            url:  'https://google.com/'},
 
             {icon: 'https://assets.smartnews.com/cr_ja_column_sale/otoku_icon2.png',
 			name: 'お得・割引',
-            desc: 'お得・割引な情報をお手元に'},
+            desc: 'お得・割引な情報をお手元に',
+            url:  'https://google.com/'},
 
             {icon: 'https://assets.smartnews.com/cr_ja_column_sale/otoku_icon2.png',
 			name: 'お得・割引',
-            desc: 'お得・割引な情報をお手元に'}
+            desc: 'お得・割引な情報をお手元に',
+            url:  'https://google.com/'}
         ]
 
 		
@@ -58,6 +64,7 @@ export default class Main extends React.Component {
 				icon={channelitem.icon}
 				name={channelitem.name}
                 desc={channelitem.desc}
+                url={channelitem.url}
 			/>
             </li>
             )
