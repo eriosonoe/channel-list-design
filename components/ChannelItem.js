@@ -2,6 +2,11 @@ import React from 'react';
 
 
 export default class ChannelItem extends React.Component {
+
+    onClickOpenButton(){
+        location.href = this.props.url;
+    }
+
 	render() {
 		return (
             <>
@@ -12,7 +17,7 @@ export default class ChannelItem extends React.Component {
 				    <div className='desc'>{this.props.desc}</div>
                 </div>
 
-                <div className='button'><button type="button" className='button-deco linkbox' onclick={this.props.url}>開く</button></div>
+                <div className='button'><button type="button" className='button-deco linkbox' onClick={()=>{this.onClickOpenButton()}}>開く</button></div>
                 
 			</div>
 
