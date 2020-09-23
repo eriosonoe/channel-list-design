@@ -54,7 +54,7 @@ export default class App extends React.Component {
 					<section class="">
 						<div className="content">
 							<div className="description">
-								<p>１タップでチャンネルが登録できます！</p>
+								<p>これは hoge.js です</p>
 							</div>
 							<div className="banner">
 								<img src="https://smartnews.github.io/cp-frontend/static/media/banner2.12f8e6a8.png" className="banner-image" />
