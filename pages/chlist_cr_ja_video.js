@@ -8,112 +8,112 @@ export default class App extends React.Component {
 				icon: 'https://assets.smartnews.com/cr_ja_extra_astronomy/space_icon.png',
 				name: '天文・宇宙',
 				desc: '天体観測、宇宙探査、宇宙開発など',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_extra_astronomy'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_extra_astronomy'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_column_fishing/logo_square.png',
 				name: '釣り',
 				desc: '集まれ！釣り好き',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_column_fishing'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_column_fishing'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_sports_horseracing/logo_square.jpg',
 				name: '競馬',
 				desc: '国内外の競馬情報をまとめて！',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_sports_horseracing'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_sports_horseracing'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_national_train/logo_square.png',
 				name: '鉄道',
 				desc: '鉄道趣味人のための情報をお届け',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_national_train'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_national_train'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_national_shogi/logo_square.png',
 				name: '将棋',
 				desc: '対局情報から棋士ブログまで網羅',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_national_shogi'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_national_shogi'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/quiz/quiz.png',
 				name: 'クイズ',
 				desc: 'クイズに関する話題が満載！',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_extra_quiz'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_extra_quiz'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_economy_bike/logo_square.png',
 				name: 'バイク',
 				desc: 'バイクライフを応援する情報',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_economy_bike'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_economy_bike'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_technology_audiovisual/logo_square.png',
 				name: 'オーディオビジュアル',
 				desc: 'AVの最新情報',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_technology_audiovisual'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_technology_audiovisual'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_sports_golf/logo_square.png',
 				name: 'ゴルフ',
 				desc: '国際ツアーや有名選手などの情報をお届け',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_sports_golf'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_sports_golf'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_sports_bicycleracing/icon_bicycle.png',
 				name: '自転車',
 				desc: '自転車にまつわる様々な情報をお届け',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_sports_bicycleracing'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_sports_bicycleracing'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/fortune-telling/logo_square.png',
 				name: '占い',
 				desc: '毎日を占いでもっと楽しく！',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_column_fortunetelling'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_column_fortunetelling'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_column_travel/logo_square.png',
 				name: 'トラベル',
 				desc: '国内/海外の観光スポットから航空情報まで！',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_column_travel'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_column_travel'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/movie/logo_square.png',
 				name: '映画',
 				desc: '新作予告から注目作レビューまで',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_entertainment_movie'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_entertainment_movie'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_entertainment_music/logo_square.png',
 				name: '音楽',
 				desc: '話題のヒット作やアーティスト情報をお届け',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_entertainment_music'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_entertainment_music'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/cr_ja_entertainment_art/logo_square.png',
 				name: 'アート',
 				desc: 'アート情報をまとめてお届け',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_entertainment_art'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_entertainment_art'
 			},
 
 			{
 				icon: 'https://assets.smartnews.com/dokusho/logo_square.png',
 				name: '読書',
 				desc: '今、話題の本の情報をお届けします',
-				url: 'smartnews://openChannelDetail?identifier=$cr_ja_extra_book'
+				url: 'smartnews://openChannelDetail?identifier=cr_ja_extra_book'
 			}
 		]
 
@@ -150,7 +150,7 @@ export default class App extends React.Component {
 							</div>
 
 							<div className="button">
-								<button type="button" className='button'>いろんな情報を見にいく</button>
+								<button type="button" className='button' onclick="location.href='smartnews://openChannelStore'">いろんな情報を見にいく</button>
 							</div>
 
 						</div>
